@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_image" >
+
+    <Button
+        android:id="@+id/bRemove"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:text="Uninstall"
+        android:background="@drawable/custom" />
+
+    <Button
+        android:id="@+id/bInstall"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/bRemove"
+        android:text="Install"
+        android:background="@drawable/custom" />
+
+    <TextView
+        android:id="@+id/tvSmirkit"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="50sp"
+        android:textColor="#0099cc"
+        android:gravity="center" />
+
+</RelativeLayout>
