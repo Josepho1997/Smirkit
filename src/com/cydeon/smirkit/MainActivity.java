@@ -69,7 +69,6 @@ public class MainActivity extends Activity implements OnClickListener {
 					e.printStackTrace();
 				}
 				
-				//Testing Git-Hub commits
 				String path = "/sdcard/";
 				String zipname = "smirkit.zip";
 				InputStream is;
